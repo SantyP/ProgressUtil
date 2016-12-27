@@ -2,8 +2,8 @@
 //  ProgressUtilTests.m
 //  ProgressUtilTests
 //
-//  Created by santosh.vishwakarma on 27/12/16.
-//  Copyright © 2016 LM. All rights reserved.
+//  Created by Trainer on 27/12/16.
+//  Copyright © Traning. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
