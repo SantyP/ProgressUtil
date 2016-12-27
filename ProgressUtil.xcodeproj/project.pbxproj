@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3A61211E12724D007B690E /* ProgressUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3A61161E12724D007B690E /* ProgressUtil.framework */; };
-		AA3A61261E12724D007B690E /* ProgressUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61251E12724D007B690E /* ProgressUtilTests.m */; };
 		AA3A61B41E12B05F007B690E /* LiveView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61AF1E12B05F007B690E /* LiveView.h */; };
 		AA3A61B51E12B05F007B690E /* LiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61B01E12B05F007B690E /* LiveView.m */; };
 		AA3A61B61E12B05F007B690E /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61B11E12B05F007B690E /* Person.h */; };
@@ -16,22 +14,9 @@
 		AA3A61B81E12B05F007B690E /* ProgressUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61B31E12B05F007B690E /* ProgressUtil.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AA3A61221E12724D007B690E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA3A610D1E12724D007B690E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3A61151E12724D007B690E;
-			remoteInfo = ProgressUtil;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AA3A61161E12724D007B690E /* ProgressUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3A611B1E12724D007B690E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA3A61201E12724D007B690E /* ProgressUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3A61251E12724D007B690E /* ProgressUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressUtilTests.m; sourceTree = "<group>"; };
-		AA3A61271E12724D007B690E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3A61AF1E12B05F007B690E /* LiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveView.h; sourceTree = "<group>"; };
 		AA3A61B01E12B05F007B690E /* LiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveView.m; sourceTree = "<group>"; };
 		AA3A61B11E12B05F007B690E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -47,14 +32,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA3A611D1E12724D007B690E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3A61211E12724D007B690E /* ProgressUtil.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				AA3A61181E12724D007B690E /* ProgressUtil */,
-				AA3A61241E12724D007B690E /* ProgressUtilTests */,
 				AA3A61171E12724D007B690E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				AA3A61161E12724D007B690E /* ProgressUtil.framework */,
-				AA3A61201E12724D007B690E /* ProgressUtilTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,15 +58,6 @@
 				AA3A611B1E12724D007B690E /* Info.plist */,
 			);
 			path = ProgressUtil;
-			sourceTree = "<group>";
-		};
-		AA3A61241E12724D007B690E /* ProgressUtilTests */ = {
-			isa = PBXGroup;
-			children = (
-				AA3A61251E12724D007B690E /* ProgressUtilTests.m */,
-				AA3A61271E12724D007B690E /* Info.plist */,
-			);
-			path = ProgressUtilTests;
 			sourceTree = "<group>";
 		};
 		AA3A61AE1E12B05F007B690E /* Classes */ = {
@@ -140,24 +106,6 @@
 			productReference = AA3A61161E12724D007B690E /* ProgressUtil.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AA3A611F1E12724D007B690E /* ProgressUtilTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA3A612D1E12724D007B690E /* Build configuration list for PBXNativeTarget "ProgressUtilTests" */;
-			buildPhases = (
-				AA3A611C1E12724D007B690E /* Sources */,
-				AA3A611D1E12724D007B690E /* Frameworks */,
-				AA3A611E1E12724D007B690E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA3A61231E12724D007B690E /* PBXTargetDependency */,
-			);
-			name = ProgressUtilTests;
-			productName = ProgressUtilTests;
-			productReference = AA3A61201E12724D007B690E /* ProgressUtilTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,9 +116,6 @@
 				ORGANIZATIONNAME = LM;
 				TargetAttributes = {
 					AA3A61151E12724D007B690E = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					AA3A611F1E12724D007B690E = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -188,20 +133,12 @@
 			projectRoot = "";
 			targets = (
 				AA3A61151E12724D007B690E /* ProgressUtil */,
-				AA3A611F1E12724D007B690E /* ProgressUtilTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA3A61141E12724D007B690E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA3A611E1E12724D007B690E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA3A611C1E12724D007B690E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3A61261E12724D007B690E /* ProgressUtilTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AA3A61231E12724D007B690E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA3A61151E12724D007B690E /* ProgressUtil */;
-			targetProxy = AA3A61221E12724D007B690E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AA3A61281E12724D007B690E /* Debug */ = {
@@ -361,26 +282,6 @@
 			};
 			name = Release;
 		};
-		AA3A612E1E12724D007B690E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ProgressUtilTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.santyp.training.ProgressUtilTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		AA3A612F1E12724D007B690E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ProgressUtilTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.santyp.training.ProgressUtilTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -398,15 +299,6 @@
 			buildConfigurations = (
 				AA3A612B1E12724D007B690E /* Debug */,
 				AA3A612C1E12724D007B690E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA3A612D1E12724D007B690E /* Build configuration list for PBXNativeTarget "ProgressUtilTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA3A612E1E12724D007B690E /* Debug */,
-				AA3A612F1E12724D007B690E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
