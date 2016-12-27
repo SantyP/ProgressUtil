@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA3A611A1E12724D007B690E /* ProgressUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61191E12724D007B690E /* ProgressUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA3A61211E12724D007B690E /* ProgressUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3A61161E12724D007B690E /* ProgressUtil.framework */; };
 		AA3A61261E12724D007B690E /* ProgressUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61251E12724D007B690E /* ProgressUtilTests.m */; };
-		AA3A61321E127783007B690E /* LiveView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61301E127783007B690E /* LiveView.h */; };
-		AA3A61331E127783007B690E /* LiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61311E127783007B690E /* LiveView.m */; };
-		AA3A61361E127857007B690E /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61341E127857007B690E /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA3A61371E127857007B690E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61351E127857007B690E /* Person.m */; };
+		AA3A61B41E12B05F007B690E /* LiveView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61AF1E12B05F007B690E /* LiveView.h */; };
+		AA3A61B51E12B05F007B690E /* LiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61B01E12B05F007B690E /* LiveView.m */; };
+		AA3A61B61E12B05F007B690E /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61B11E12B05F007B690E /* Person.h */; };
+		AA3A61B71E12B05F007B690E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3A61B21E12B05F007B690E /* Person.m */; };
+		AA3A61B81E12B05F007B690E /* ProgressUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A61B31E12B05F007B690E /* ProgressUtil.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +28,15 @@
 
 /* Begin PBXFileReference section */
 		AA3A61161E12724D007B690E /* ProgressUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3A61191E12724D007B690E /* ProgressUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressUtil.h; sourceTree = "<group>"; };
 		AA3A611B1E12724D007B690E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3A61201E12724D007B690E /* ProgressUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3A61251E12724D007B690E /* ProgressUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressUtilTests.m; sourceTree = "<group>"; };
 		AA3A61271E12724D007B690E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA3A61301E127783007B690E /* LiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveView.h; sourceTree = "<group>"; };
-		AA3A61311E127783007B690E /* LiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveView.m; sourceTree = "<group>"; };
-		AA3A61341E127857007B690E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		AA3A61351E127857007B690E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA3A61AF1E12B05F007B690E /* LiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveView.h; sourceTree = "<group>"; };
+		AA3A61B01E12B05F007B690E /* LiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveView.m; sourceTree = "<group>"; };
+		AA3A61B11E12B05F007B690E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA3A61B21E12B05F007B690E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA3A61B31E12B05F007B690E /* ProgressUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +79,8 @@
 		AA3A61181E12724D007B690E /* ProgressUtil */ = {
 			isa = PBXGroup;
 			children = (
-				AA3A61191E12724D007B690E /* ProgressUtil.h */,
+				AA3A61AE1E12B05F007B690E /* Classes */,
 				AA3A611B1E12724D007B690E /* Info.plist */,
-				AA3A61301E127783007B690E /* LiveView.h */,
-				AA3A61311E127783007B690E /* LiveView.m */,
-				AA3A61341E127857007B690E /* Person.h */,
-				AA3A61351E127857007B690E /* Person.m */,
 			);
 			path = ProgressUtil;
 			sourceTree = "<group>";
@@ -98,6 +94,18 @@
 			path = ProgressUtilTests;
 			sourceTree = "<group>";
 		};
+		AA3A61AE1E12B05F007B690E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A61AF1E12B05F007B690E /* LiveView.h */,
+				AA3A61B01E12B05F007B690E /* LiveView.m */,
+				AA3A61B11E12B05F007B690E /* Person.h */,
+				AA3A61B21E12B05F007B690E /* Person.m */,
+				AA3A61B31E12B05F007B690E /* ProgressUtil.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -105,9 +113,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3A611A1E12724D007B690E /* ProgressUtil.h in Headers */,
-				AA3A61361E127857007B690E /* Person.h in Headers */,
-				AA3A61321E127783007B690E /* LiveView.h in Headers */,
+				AA3A61B81E12B05F007B690E /* ProgressUtil.h in Headers */,
+				AA3A61B61E12B05F007B690E /* Person.h in Headers */,
+				AA3A61B41E12B05F007B690E /* LiveView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3A61371E127857007B690E /* Person.m in Sources */,
-				AA3A61331E127783007B690E /* LiveView.m in Sources */,
+				AA3A61B51E12B05F007B690E /* LiveView.m in Sources */,
+				AA3A61B71E12B05F007B690E /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
